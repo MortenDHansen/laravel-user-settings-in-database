@@ -1,33 +1,40 @@
 {
-    "name": "mortenhansen/laravel-user-settings-in-database",
-    "description": "Configuration in database with option to let users override values",
-    "require": {
-        "php": "^8.0",
-        "illuminate/support": "^9.0"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^7.0",
-        "phpunit/phpunit": "^9.5"
-    },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Mortenhansen\\LaravelUserSettingsInDatabase\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "MortenDHansen\\LaravelUserSettingsInDatabase\\Tests\\": "tests"
-        }
-    },
-    "authors": [
-        {
-            "name": "Morten D. Hansen",
-            "email": "morten@visia.dk"
-        }
-    ],
-    "scripts": {
-        "test": "vendor/bin/phpunit"
-    },
-    "minimum-stability": "dev"
+  "name": "mortenhansen/laravel-user-settings-in-database",
+  "description": "Configuration in database with option to let users override values",
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^9.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.0",
+    "phpunit/phpunit": "^9.5"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Mortenhansen\\LaravelUserSettingsInDatabase\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MortenDHansen\\LaravelUserSettingsInDatabase\\Tests\\": "tests"
+    }
+  },
+  "authors": [
+    {
+      "name": "Morten D. Hansen",
+      "email": "morten@visia.dk"
+    }
+  ],
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MortenDHansen\\LaravelUserSettingsInDatabase\\DatabaseSettingsServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
 }
