@@ -1,6 +1,6 @@
 <?php
 
-namespace Mortenhansen\LaravelUserSettingsInDatabase;
+namespace MortenDHansen\LaravelUserSettingsInDatabase;
 
 class DatabaseSettingsServiceProvider extends \Illuminate\Support\ServiceProvider
 {
