@@ -18,7 +18,9 @@ class DatabaseSettingsServiceProvider extends \Illuminate\Support\ServiceProvide
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         $this->publishes([
             __DIR__.'/../database/migrations/' => database_path('migrations')
-        ], 'ldb-settings-migrations');
+        ],
+            'ldb-settings-migrations'
+        );
 
 //        if ($this->app->runningInConsole()) {
 //            $destination = database_path('migrations/' . date('Y_m_d_His',
