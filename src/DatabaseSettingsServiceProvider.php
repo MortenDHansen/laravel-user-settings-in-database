@@ -4,12 +4,6 @@ namespace Mortenhansen\LaravelUserSettingsInDatabase;
 
 class DatabaseSettingsServiceProvider extends \Illuminate\Support\ServiceProvider
 {
-
-    public function register()
-    {
-
-    }
-
     public function boot()
     {
         /**

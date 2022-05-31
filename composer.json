@@ -12,7 +12,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Mortenhansen\\LaravelUserSettingsInDatabase\\": "src/"
+      "MortenDHansen\\LaravelUserSettingsInDatabase\\": "src/"
     }
   },
   "autoload-dev": {
