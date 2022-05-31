@@ -1,5 +1,5 @@
 {
-  "name": "mortenhansen/laravel-user-settings-in-database",
+  "name": "mortendhansen/laravel-user-settings-in-database",
   "description": "Configuration in database with option to let users override values",
   "require": {
     "php": "^8.0",
